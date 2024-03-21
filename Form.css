@@ -1,0 +1,114 @@
+.container {
+    position: absolute;
+    background-color: #E5E7EB;
+    right: 0;
+    width: 940px;
+    height: 250px;
+    top: 0px;
+}
+
+h4{
+    line-height: 5px; /* Add spacing between the lines */
+    padding-left: 15px;
+    position: absolute;
+}
+
+em {
+    font-style: italic; /* Apply italic styling */
+    margin: 0 5px; /* Add spacing around the italicized word */
+}
+
+.p {
+    padding-left: 15px;
+    position: absolute;
+}
+
+.p2 {
+    padding-left: 15px;
+    position: absolute;
+    bottom: 110px;
+    font-weight: bolder;
+}
+
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 500px;
+    height: 800px;
+}
+
+.container2{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    right: 0;
+    width: 940px;
+    height: 250px;
+    top: 250px;
+}
+
+h3 {
+    padding-left: 30px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-column,
+  .right-column {
+    padding-left: 30px;
+    width: 45%;
+    margin-bottom: 5px;
+    line-height: 25px;
+  }
+
+  label {
+    display: block;
+    padding: 0px;
+  }
+
+  input{
+    width: 80%;
+    height: 25px;
+  }
+  
+.Final-Container{
+    top: 300px;
+    position: absolute;
+    background-color: #E5E7EB;
+    right: 0;
+    width: 940px;
+    height: 250px;
+    
+}
+
+button{
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 55px;
+    width: 27%;
+    font-weight: 600;
+}
+
+h5{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+p3{
+    color: #596D48;
+}
+
+p4{
+    color: red;
+}
+
+#password.error,
+#confirm-password.error {
+    border: 1px solid red;
+    }
